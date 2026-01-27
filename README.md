@@ -4,11 +4,11 @@
 
 ###
 
-<h2 align="left">Hi 👋! My name is Ryder and I'm a Programmer and Video Editor from Algeria 🇩🇿</h2>
+<h3 align="left">Hi 👋! My name is Ryder and I'm a Programmer and Video Editor from Algeria 🇩🇿</h3>
 
 ###
 
-<p align="left">I code with</p>
+<h2 align="left">I code with</h2>
 
 ###
 
@@ -38,7 +38,7 @@
 
 ###
 
-<p align="left">I edit with</p>
+<h3 align="left">I edit with</h3>
 
 ###
 
@@ -68,13 +68,7 @@
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Mauro DeSouza/Mauro DeSouza/output/snake.svg" alt="Snake animation" />
-
-###
-
-<p align="left">Game developer with</p>
+<h2 align="left">Game developer with</h2>
 
 ###
 
@@ -84,20 +78,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" height="30" alt="unrealengine logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="30" alt="unity logo"  />
-</div>
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mauro DeSouza/Mauro DeSouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mauro DeSouza/Mauro DeSouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Mauro DeSouza/Mauro DeSouza/output/pacman-contribution-graph.svg">
-</picture>
-
-###
-
-<div align="center">
-  <img src="https://open.spotify.com/track/6Q5uDNuuFYa8ToL3CCoHPC?si=249a0ca8849f440f?theme=dark" alt="Widget with the current Spotify song"  />
 </div>
 
 ###
