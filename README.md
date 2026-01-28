@@ -11,6 +11,8 @@
 <h2 align="left">I code with</h2>
 
 ###
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Bxat01&show_icons=true&theme=dark)
+
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
