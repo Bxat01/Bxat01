@@ -12,7 +12,7 @@
 <h2 align="left">I code with</h2>
 
 ###
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Bxat01&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bxat01&layout=compact&theme=dark)
 
 
 <div align="left">
