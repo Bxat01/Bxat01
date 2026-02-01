@@ -11,8 +11,10 @@
 
 <h2 align="left">I code with</h2>
 
-###
+### 📊 Top Languages
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bxat01&layout=compact&theme=dark)
+
 
 
 <div align="left">
