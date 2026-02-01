@@ -3,17 +3,12 @@
   <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=#0047AB&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
 </div>
 
-###
 
-<h3 align="left">Hi 👋! My name is Ryder and I'm a Programmer and Video Editor from Algeria 🇩🇿</h3>
 
-###
 
 <h2 align="left">I code with</h2>
 
-### 📊 Top Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bxat01&layout=compact&theme=dark)
 
 
 
