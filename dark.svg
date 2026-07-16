@@ -1,0 +1,150 @@
+<svg width="900" height="660" viewBox="0 0 900 660" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ryder profile card">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&amp;family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&amp;display=swap');
+.blackletter{font-family:'UnifrakturCook',serif;}
+.mono{font-family:'JetBrains Mono',monospace;}
+.dim{fill:#4d4d54;}
+.mid{fill:#8b8b93;}
+.txt{fill:#ececef;}
+.pink{fill:#F72585;}
+.purple{fill:#A855F7;}
+</style>
+
+<defs>
+  <clipPath id="cardClip">
+    <rect x="0" y="0" width="900" height="660" rx="18"/>
+  </clipPath>
+
+  <pattern id="dotGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.05"/>
+  </pattern>
+
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <linearGradient id="edgeFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F72585" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<g clip-path="url(#cardClip)">
+
+<rect x="0" y="0" width="900" height="660" fill="#050505"/>
+<rect x="0" y="0" width="900" height="660" fill="url(#dotGrid)"/>
+
+<rect x="0" y="0" width="300" height="660" fill="#0a0a0c"/>
+<rect x="299" y="0" width="2" height="660" fill="url(#edgeFade)"/>
+
+<g class="mono dim" font-size="11" opacity="0.5">
+<text x="14" y="270">/</text><text x="14" y="284">/</text><text x="14" y="298">\</text>
+<text x="14" y="312">/</text><text x="14" y="326">\</text><text x="14" y="340">\</text>
+<text x="14" y="354">/</text><text x="14" y="368">/</text><text x="14" y="382">\</text>
+<text x="14" y="396">/</text><text x="14" y="410">\</text><text x="14" y="424">/</text>
+<text x="14" y="438">\</text><text x="14" y="452">/</text><text x="14" y="466">\</text>
+<text x="14" y="480">/</text><text x="14" y="494">\</text><text x="14" y="508">/</text>
+<text x="270" y="270">\</text><text x="270" y="284">/</text><text x="270" y="298">/</text>
+<text x="270" y="312">\</text><text x="270" y="326">/</text><text x="270" y="340">\</text>
+<text x="270" y="354">\</text><text x="270" y="368">/</text><text x="270" y="382">/</text>
+<text x="270" y="396">\</text><text x="270" y="410">/</text><text x="270" y="424">\</text>
+<text x="270" y="438">/</text><text x="270" y="452">\</text><text x="270" y="466">/</text>
+<text x="270" y="480">\</text><text x="270" y="494">/</text><text x="270" y="508">\</text>
+</g>
+
+<text x="32" y="54" class="mono dim" font-size="13">root@lidprex:~$</text>
+<text x="32" y="72" class="mono mid" font-size="13">whoami</text>
+
+<text x="28" y="176" class="blackletter pink" font-size="70" filter="url(#softGlow)">Ryder</text>
+<text x="33" y="205" class="mono purple" font-size="13" letter-spacing="3">FRONTEND ENGINEER</text>
+
+<line x1="32" y1="232" x2="268" y2="232" stroke="#232327" stroke-width="1"/>
+
+<!-- mission quote -->
+<g class="mono mid" font-size="12" font-style="italic">
+<text x="32" y="260">&gt; 𝔊𝔦𝔳𝔢 𝔯𝔢𝔰𝔭𝔢𝔠𝔱, 𝔞𝔫𝔡 𝔦𝔱 𝔢𝔠𝔥𝔬𝔢𝔰 𝔟𝔞𝔠𝔨.</text>
+<text x="20" y="278">&#160;&#160; ℭ𝔥𝔞𝔰𝔢 𝔭𝔯𝔞𝔦𝔰𝔢, 𝔞𝔫𝔡 𝔦𝔱 𝔣𝔞𝔡𝔢𝔰 𝔟𝔢𝔣𝔬𝔯𝔢 𝔦𝔱 𝔩𝔞𝔫𝔡𝔰.</text>
+</g>
+
+<line x1="32" y1="340" x2="268" y2="340" stroke="#232327" stroke-width="1"/>
+
+<text x="32" y="366" class="mono dim" font-size="11">founder</text>
+<text x="32" y="386" class="mono pink" font-size="18" font-weight="700">Lidprex</text>
+<text x="32" y="401" class="mono mid" font-size="10" font-style="italic">parent company</text>
+
+<text x="32" y="424" class="mono" font-size="12.5">
+  <tspan class="dim">├─ </tspan><tspan class="purple" font-weight="700">Lidprex Labs</tspan>
+</text>
+<text x="50" y="440" class="mono mid" font-size="10">dev tools &amp; security</text>
+<text x="50" y="456" class="mono dim" font-size="9.5">LidBridge · LidPush · LeakShield</text>
+<text x="50" y="470" class="mono dim" font-size="9.5">RepoPrep · Idea2Project · MGS GenX</text>
+
+<text x="32" y="494" class="mono" font-size="12.5">
+  <tspan class="dim">└─ </tspan><tspan class="pink" font-weight="700">Lidprex Studio</tspan>
+</text>
+<text x="50" y="510" class="mono mid" font-size="10">game development</text>
+<text x="50" y="524" class="mono dim" font-size="9.5">UNDERTOW — tactical game</text>
+
+<line x1="32" y1="548" x2="268" y2="548" stroke="#232327" stroke-width="1"/>
+
+<rect x="32" y="568" width="66" height="22" rx="4" fill="none" stroke="#F72585" stroke-width="1" opacity="0.7"/>
+<text x="65" y="583" text-anchor="middle" class="mono pink" font-size="10">EST 2023</text>
+
+<text x="32" y="616" class="mono dim" font-size="11">build · learn · ship</text>
+
+<rect x="300" y="0" width="600" height="40" fill="#111114"/>
+<line x1="300" y1="40" x2="900" y2="40" stroke="#1c1c20" stroke-width="1"/>
+
+<circle cx="326" cy="20" r="6" fill="#E24B4A"/>
+<circle cx="346" cy="20" r="6" fill="#EF9F27"/>
+<circle cx="366" cy="20" r="6" fill="#639922"/>
+<text x="600" y="25" text-anchor="middle" class="mono mid" font-size="13">ryder ~ zsh</text>
+<text x="850" y="25" text-anchor="end" class="mono dim" font-size="11">bash</text>
+
+<g class="mono" font-size="13">
+<text x="330" y="80"><tspan class="purple" font-weight="700">Subject:</tspan><tspan class="dim">.................</tspan><tspan x="530" class="txt">Ryder</tspan></text>
+<text x="330" y="107"><tspan class="purple" font-weight="700">Role:</tspan><tspan class="dim">....................</tspan><tspan x="530" class="txt">Frontend Engineer · Backend (leveling up)</tspan></text>
+<text x="330" y="134"><tspan class="purple" font-weight="700">Location:</tspan><tspan class="dim">................</tspan><tspan x="530" class="txt">Unknown</tspan></text>
+<text x="330" y="161"><tspan class="purple" font-weight="700">Status:</tspan><tspan class="dim">..................</tspan><tspan x="530" class="txt">Building · Learning · Shipping</tspan></text>
+<text x="330" y="188"><tspan class="purple" font-weight="700">ToolChain:</tspan><tspan class="dim">...............</tspan><tspan x="530" class="txt">VS Code, Git, Docker, Postman</tspan></text>
+<text x="330" y="215"><tspan class="purple" font-weight="700">Core.Lang:</tspan><tspan class="dim">...............</tspan><tspan x="530" class="txt">JS, TS, Python, Go, Rust, C/C++, C#, PHP</tspan></text>
+<text x="330" y="242"><tspan class="purple" font-weight="700">Core.Frontend:</tspan><tspan class="dim">...........</tspan><tspan x="530" class="txt">React, Next.js, HTML, CSS, Tailwind</tspan></text>
+<text x="330" y="269"><tspan class="purple" font-weight="700">Core.Backend:</tspan><tspan class="dim">............</tspan><tspan x="530" class="txt">Node.js, Express, REST APIs</tspan></text>
+<text x="330" y="296"><tspan class="purple" font-weight="700">Core.Database:</tspan><tspan class="dim">..........</tspan><tspan x="530" class="txt">PostgreSQL, MongoDB, MySQL, Redis</tspan></text>
+<text x="330" y="323"><tspan class="purple" font-weight="700">Core.Infra:</tspan><tspan class="dim">.............</tspan><tspan x="530" class="txt">Docker, Linux, AWS, GCP, Firebase, Nginx</tspan></text>
+</g>
+
+<line x1="330" y1="350" x2="870" y2="350" stroke="#1c1c20" stroke-width="1"/>
+<text x="600" y="378" text-anchor="middle" class="mono pink" font-size="13" letter-spacing="2" filter="url(#softGlow)">— CONTACT —</text>
+<line x1="330" y1="392" x2="870" y2="392" stroke="#1c1c20" stroke-width="1"/>
+
+<g class="mono" font-size="13">
+<text x="330" y="422"><tspan class="purple" font-weight="700">Grid.Mail:</tspan><tspan class="dim">...............</tspan><tspan x="530" class="txt">openlid@onionmail.org</tspan></text>
+<text x="330" y="449"><tspan class="purple" font-weight="700">Grid.YouTube:</tspan><tspan class="dim">............</tspan><tspan x="530" class="txt">@Ryder-XA</tspan></text>
+<text x="330" y="476"><tspan class="purple" font-weight="700">Grid.Instagram:</tspan><tspan class="dim">..........</tspan><tspan x="530" class="txt">xavort</tspan></text>
+<text x="330" y="503"><tspan class="purple" font-weight="700">Grid.Twitter:</tspan><tspan class="dim">............</tspan><tspan x="530" class="txt">qyerplom</tspan></text>
+<text x="330" y="530"><tspan class="purple" font-weight="700">Grid.Github:</tspan><tspan class="dim">.............</tspan><tspan x="530" class="txt">Bxat01</tspan></text>
+</g>
+
+<line x1="330" y1="552" x2="870" y2="552" stroke="#1c1c20" stroke-width="1"/>
+
+<g class="mono" font-size="12" font-weight="500">
+<rect x="330" y="572" width="146" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1"/>
+<text x="403" y="591" text-anchor="middle" class="purple">Frontend Engineer</text>
+
+<rect x="486" y="572" width="196" height="30" rx="6" fill="none" stroke="#F72585" stroke-width="1"/>
+<text x="584" y="591" text-anchor="middle" class="pink">Leveling Up Backend</text>
+
+<rect x="330" y="610" width="118" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1"/>
+<text x="389" y="629" text-anchor="middle" class="purple">UI Engineer</text>
+
+<rect x="458" y="610" width="224" height="30" rx="6" fill="none" stroke="#F72585" stroke-width="1"/>
+<text x="570" y="629" text-anchor="middle" class="pink">Open Source Contributor</text>
+</g>
+
+</g>
+</svg>
